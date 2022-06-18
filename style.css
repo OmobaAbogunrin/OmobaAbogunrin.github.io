@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+}
+
+main {
+  margin: auto;
+  display: flex;
+}
+
+.top {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  height: 350px;
+}
+.first {
+  background-color: hsl(31, 77%, 52%);
+  width: 35%;
+  padding: 10px;
+}
+
+.second {
+  background-color: hsl(184, 100%, 22%);
+  width: 35%;
+  width: 35%;
+  padding: 10px;
+}
+
+.third {
+  background-color: hsl(179, 100%, 13%);
+  width: 35%;
+  width: 35%;
+  padding: 10px;
+}
+
+#sedan {
+  color: hsl(31, 77%, 52%);
+  border-radius: 10px;
+  border: thin white;
+  padding: 10px;
+  margin: 10px;
+}
+
+#suv {
+  color: hsl(184, 100%, 22%);
+  border-radius: 10px;
+  border: thin white;
+  padding: 10px;
+  margin: 10px;
+}
+
+#luxury {
+  color: hsl(179, 100%, 13%);
+  border-radius: 10px;
+  border: thin white;
+  padding: 10px;
+  margin: 10px;
+}
+
+h3 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 11px;
+  text-align: justify;
+  font-family: "Lexend Deca";
+}
